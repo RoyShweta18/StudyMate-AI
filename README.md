@@ -34,13 +34,15 @@ StudyMate AI is a web app where students add their own learning materials (PDFs,
 
 1. Clone the repository and open the folder:
    ```
-   git clone <https://github.com/RoyShweta18/StudyMate-AI.git>
+   git clone https://github.com/RoyShweta18/StudyMate-AI.git
    cd StudyMate-AI
    ```
 2. Create and activate a virtual environment:
    ```
    python3 -m venv venv
    source venv/bin/activate
+
+3.create .streamlit/secrets.toml and add GEMINI_API_KEY = "Your_Key"   
    ```
 3. Install dependencies:
    ```
