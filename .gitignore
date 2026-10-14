@@ -1,0 +1,9 @@
+.streamlit/secrets.toml
+.env
+venv/
+__pycache__/
+*.pyc
+app_backup.py
+app_backup_before_video.py
+test_gemini.py
+test_video.py
